@@ -1,0 +1,50 @@
+/* Global page styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+/* Reusable box class */
+.box {
+    background-color: #ffffff;
+    border: 2px solid #ddd;   /* Shows box boundary */
+    padding: 20px;            /* Space inside box */
+    margin: 20px;             /* Space outside box */
+}
+
+/* Flexbox navigation bar */
+.nav-flex {
+    display: flex;                   /* Enables flexbox */
+    justify-content: center;         /* Aligns items horizontally */
+    gap: 20px;                       /* Space between links */
+    flex-wrap: wrap;                 /* Wraps links on small screens */
+}
+
+/* Navigation links */
+.nav-flex a {
+    text-decoration: none;
+    color: #0077cc;
+    font-weight: bold;
+}
+
+/* Skills flex container */
+.skills-flex {
+    display: flex;                   /* Makes skill cards flexible */
+    justify-content: space-around;   /* Adds space around cards */
+    flex-wrap: wrap;                 /* Moves cards to next line */
+}
+
+/* Skill card styling */
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    width: 120px;
+    text-align: center;
+}
+
+/* Footer alignment */
+footer {
+    text-align: center;
+}

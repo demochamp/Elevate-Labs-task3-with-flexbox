@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Makes the layout responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Linking external CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>My Profile - Flexbox</title>
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <header class="box">
+        <h1>Khushi Choudhary</h1>
+        <p>Aspiring Web Developer | IT Student</p>
+    </header>
+
+    <!-- Navigation bar using Flexbox -->
+    <nav class="box nav-flex">
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main content -->
+    <main>
+
+        <!-- About section -->
+        <section id="about" class="box">
+            <h2>About Me</h2>
+            <p>I am a final year Bsc.IT student enjoy making multiple websites and responsive designs which is supported on multiple devices.</p>
+        </section>
+
+        <!-- Education section -->
+        <section id="education" class="box">
+            <h2>Education</h2>
+            <p>Bachelor of Information Technology – DSIMS</p>
+        </section>
+
+        <!-- Skills section using Flexbox cards -->
+        <section id="skills" class="box">
+            <h2>Skills</h2>
+
+            <!-- Flex container for skill cards -->
+            <div class="skills-flex">
+                <div class="card">HTML</div>
+                <div class="card">CSS</div>
+                <div class="card">JavaScript</div>
+                <div class="card">Python</div>
+                <div class="card">Git & GitHub</div>
+            </div>
+        </section>
+
+        <!-- Contact section -->
+        <section id="contact" class="box">
+            <h2>Contact</h2>
+            <p>Email: choudharykhushi499@gmail.com</p>
+            <p>Location: https://www.linkedin.com/in/khushi-choudhary-957410201</p>
+        </section>
+
+    </main>
+
+    <!-- Footer section -->
+    <footer class="box">
+        <p>&copy; 2026 Khushi Choudhary. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
